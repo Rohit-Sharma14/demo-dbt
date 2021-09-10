@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: DEMO_DB
+    description: 'SAMPLE DATA OF ECOMM'
+    database: DEMO_DB
+    schema: PUBLIC
+    tables:
+      - name: ECOMM
+        description: 'DEMO ECOMM'

@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: bigquery
+    description: 'sample data of sales'
+    database: glowing-jetty-235111
+    schema: cliff
+    tables:
+      - name: sales
+        description: 'DEMO ECOMM'

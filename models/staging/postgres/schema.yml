@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: postgres
+    description: 'SAMPLE DATA OF ECOMM'
+    database: d1q029ogaop0c7
+    schema: PUBLIC
+    tables:
+      - name: kratos_test
+        description: 'Arjun'
